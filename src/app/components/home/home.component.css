@@ -1,0 +1,45 @@
+.found {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  color: #8b116d;
+}
+
+.menu-text {
+  display: flex;
+  padding: 50px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.btn-info {
+  background: linear-gradient(180deg, #db1c6e 0%, #6c0d6c 100%);
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: normal;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.spacer {
+  padding: 10px;
+}
+
+.card-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+
+  color: #8d116d;
+}

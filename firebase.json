@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/Hackathon-Mullier",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
