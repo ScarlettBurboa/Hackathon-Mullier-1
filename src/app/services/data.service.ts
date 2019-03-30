@@ -30,53 +30,5 @@ export class DataService {
     });
   }
 
-  // getBoard(id: string): Observable<any> {
-  //   return new Observable(observer => {
-  //     this.ref
-  //       .doc(id)
-  //       .get()
-  //       .then(doc => {
-  //         const data = doc.data();
-  //         observer.next({
-  //           key: doc.id,
-  //           title: data.title,
-  //           description: data.description,
-  //           author: data.author
-  //         });
-  //       });
-  //   });
-  // }
-
-  // postBoards(data): Observable<any> {
-  //   return new Observable(observer => {
-  //     this.ref.add(data).then(doc => {
-  //       observer.next({
-  //         key: doc.id
-  //       });
-  //     });
-  //   });
-  // }
-
-  // updateBoards(id: string, data): Observable<any> {
-  //   return new Observable(observer => {
-  //     this.ref
-  //       .doc(id)
-  //       .set(data)
-  //       .then(() => {
-  //         observer.next();
-  //       });
-  //   });
-  // }
-
-  // deleteBoards(id: string): Observable<{}> {
-  //   return new Observable(observer => {
-  //     this.ref
-  //       .doc(id)
-  //       .delete()
-  //       .then(() => {
-  //         observer.next();
-  //       });
-  //   });
-  // }
   constructor() {}
 }
