@@ -28,12 +28,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     Page404Component,
     NavbarComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireStorageModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
