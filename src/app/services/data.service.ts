@@ -11,24 +11,24 @@ import { Works } from '../models/works';
 export class DataService {
   ref = firebase.firestore().collection('works');
 
-  getData(): Observable<any> {
-    return new Observable(observer => {
-      this.ref.onSnapshot(querySnapshot => {
-        const trabajoList: Works[] = [];
-        querySnapshot.forEach(doc => {
-          const data = doc.data();
-          trabajoList.push({
-            empleadorasid: data.empleadorasid,
-            descripcion: data.descripcion,
-            telefono: data.telefono,
-            ubicacion: data.ubicacion,
-            estado: data.estado
-          });
-        });
-        observer.next(trabajoList);
-      });
-    });
-  }
+  // getData(): Observable<any> {
+  //   return new Observable(observer => {
+  //     this.ref.onSnapshot(querySnapshot => {
+  //       const trabajoList: Works[] = [];
+  //       querySnapshot.forEach(doc => {
+  //         const data = doc.data();
+  //         trabajoList.push({
+  //           empleadorasid: data.empleadorasid,
+  //           descripcion: data.descripcion,
+  //           telefono: data.telefono,
+  //           ubicacion: data.ubicacion,
+  //           estado: data.estado
+  //         });
+  //       });
+  //       observer.next(trabajoList);
+  //     });
+  //   });
+  // }
 
   constructor() {}
 }
