@@ -6,6 +6,7 @@ import { OpportunitiesComponent  } from './components/opportunities/opportunitie
 import { LoginComponent  } from './components/users/login/login.component';
 import { ProfileComponent } from './components/users/profile/profile.component';
 import { RegisterComponent  } from './components/users/register/register.component';
+import { NavbarComponent  }from './components/navbar/navbar.component';
 import { Page404Component } from  './components/page404/page404.component';
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'opportunities', component: OpportunitiesComponent},
   {path: 'users/profile', component: ProfileComponent},
   {path: 'users/register', component: RegisterComponent},
+  {path: 'navbar', component: NavbarComponent},
   {path: '**', component: Page404Component}
 ];
 

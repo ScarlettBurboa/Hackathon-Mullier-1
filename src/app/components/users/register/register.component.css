@@ -1,0 +1,15 @@
+.logo{
+  width: 100%;
+  text-align:center;
+}
+.logo img{
+  margin:40px auto;
+  display:block;
+}
+.btn-primary{
+  background: -webkit-linear-gradient(#DB1C6E, #6C0D6C) !important;
+  color:#fff !important;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-norder-radius: 30px;
+}

@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { OpportunitiesComponent } from './components/opportunities/opportunities.component';
 import { JobsComponent } from './components/jobs/jobs.component';
 import { Page404Component } from './components/page404/page404.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Page404Component } from './components/page404/page404.component';
     HomeComponent,
     OpportunitiesComponent,
     JobsComponent,
-    Page404Component
+    Page404Component,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
