@@ -1,5 +1,6 @@
 export class Works {
-  empleadorasid: number;
+  nombre: string;
+  ocupacion: string;
   descripcion: string;
   telefono: number;
   ubicacion: string;
