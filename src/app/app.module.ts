@@ -1,7 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import * as firebase from 'firebase';
-import { firestore } from 'firebase';
 
 // Imports de Angular
 

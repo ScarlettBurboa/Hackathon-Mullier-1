@@ -6,3 +6,11 @@ body{
   background-color:  -webkit-linear-gradient(#DB1C6E, #6C0D6C) !important;
   color:#fff !important;
 }
+.logo{
+  width: 100%;
+  text-align:center;
+}
+.logo img{
+  margin:40px auto;
+  display:block;
+}

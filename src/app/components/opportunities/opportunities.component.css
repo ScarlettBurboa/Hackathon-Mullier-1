@@ -1,0 +1,20 @@
+.boxing{
+  max-width:900px;
+  width:100%;
+  height: auto; 
+  margin: 40px auto;
+}
+.bg-primary{
+  background-color: #6C0D6C !important;
+}
+.btn-primary{
+  background: -webkit-linear-gradient(#DB1C6E, #6C0D6C) !important;
+  color:#fff !important;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-norder-radius: 30px;
+  max-width: 300px; 
+  width: 100%;
+  margin: 0 auto; 
+  display:block;
+}
