@@ -7,15 +7,15 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../../../assets/carrusel1.png" class="d-block w-100" alt="..." />
+        <img src="../../../assets/foto1.png" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block"></div>
       </div>
       <div class="carousel-item">
-        <img src="../../../assets/carrusel2.png" class="d-block w-100" alt="..." />
+        <img src="../../../assets/foto2.png" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block"></div>
       </div>
       <div class="carousel-item">
-        <img src="../../../assets/carrusel3.png" class="d-block w-100" alt="..." />
+        <img src="../../../assets/foto3.png" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block"></div>
       </div>
     </div>
@@ -42,20 +42,30 @@
 
 <div class="container">
   <section class="tile-card">
-    <span>Últimas ofertas publicadas</span>
-  </section>
-  <section class="card">
-    <div class="card" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk of the card's
-          content.
-        </p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
+    <div class="menu-text">
+      <span class="found mx-auto">Busca tu Oportinidad</span>
     </div>
   </section>
 </div>
+
+<ul>
+  <div class="row">
+    <li *ngFor="let work of works; index as i">
+      <div class="spacer">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ work.ocupacion }}</h5>
+            <p class="card-text">{{ work.descripcion }}</p>
+            <a href="#" class="btn-info">Más info</a>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Contacto: <cite title="Source Title"> {{ work.nombre }}</cite>
+              </small>
+              <small class="text-muted"> Wsp: {{ work.telefono }} </small>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </li>
+  </div>
+</ul>

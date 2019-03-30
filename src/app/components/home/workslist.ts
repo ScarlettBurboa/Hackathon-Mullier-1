@@ -24,5 +24,21 @@ export const WORKS: Works[] = [
     telefono: 56943452341,
     ubicacion: 'Santiago',
     estado: 'publicado'
+  },
+  {
+    nombre: 'Julia Prado',
+    ocupacion: 'Cocinera',
+    descripcion: 'Necesito una cocinera para prepar cena de cumpleaños',
+    telefono: 56943452341,
+    ubicacion: 'Temuco',
+    estado: 'publicado'
+  },
+  {
+    nombre: 'Carola Morales',
+    ocupacion: 'Pintora',
+    descripcion: 'Solicito cotizaciones para pintar mi pieza',
+    telefono: 56940987654,
+    ubicacion: 'Santiago',
+    estado: 'publicado'
   }
 ];
